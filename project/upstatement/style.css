@@ -1,0 +1,356 @@
+@font-face {
+    src: url(FontsFree-Net-GT-America-Regular-1.ttf);
+    font-family: gtamerica;
+}
+@font-face {
+    src: url(4KeEJS3m4nlK3K2I/TTRamillas-ExtraLight.otf);
+    font-family: ramillas;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gtamerica;
+}
+a {
+    color: white;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form {
+    width: 90%;
+    margin: auto;
+}
+.menu {
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h2 {
+    padding: 20px 0;
+    color: white;
+}
+.wrapper {
+    background: black;
+}
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    background: white;
+
+    border-radius: 50%;
+  }
+  .menu-btn__burger {
+    width: 30px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 black;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 0 black;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before {
+    transform: translateY(-10px);
+  }
+  .menu-btn__burger::after {
+    transform: translateY(10px);
+  }
+  /* ANIMATION */
+  .menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+.wmk,.bot-lef,.bot-form-left,.bot-left {
+    width: 30%;
+}
+.digital,.bot-right,.bot-form-right,.bot-right {
+    width: 70%;
+}
+
+.michel-hover {
+    display: none;
+}
+.digital h1 {
+    font-size: 62px;
+    font-family: ramillas;
+    color: white;
+}
+.wmk h1 {
+    font-family: ramillas;
+    color: white;
+    font-size: 42px;
+    width: 100%;
+}
+.wmk ul li::before {
+    content: "•";
+    color: white;
+    font-size: 2rem;
+    opacity: 0.5;
+}
+.wmk ul li a {
+    font-size: 1.25rem;
+}
+.wmk {
+    display: flex;
+    align-items: flex-end;
+}
+.wmk ul {
+    width: 100%;
+}
+.michel-box {
+    width: 100%;
+}
+.michel {
+    width: 100%;
+    overflow: hidden;
+    transition: all 2s ease;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.michel img {
+    width: 100%;
+}
+.mom-steal {
+    width: 100%;
+    justify-content: space-between;
+}
+.mom-box,.steal {
+    width: 49%;
+}
+.mom-box img,.steal img{
+    width: 100%;
+}
+.value {
+    width: 100%;
+}
+.value img {
+    width: 100%;
+}
+.mid {
+    padding: 10vh 0 ;
+}
+.wmk a {
+    text-decoration: none;
+    color: white;
+}
+.digital h2 {
+    color: white;
+    padding: 50px 0;
+}
+.digital  > h1 {
+    width: 70%;
+}
+.michel:hover  > .michel-nonhover{
+    display: none;
+}
+.michel:hover > .michel-hover{
+    display: block;
+    animation: zoom 20s;
+}
+@keyframes zoom {
+    0% {
+    transform: scale(1, 1);
+    }
+    50% {
+    transform: scale(1.5, 1.5);
+    }
+    100% {
+    transform: scale(1, 1);
+    }
+    }
+.michel-box {
+    padding: 20px 0;
+}
+.michel-box h3,.mom-box h3,.steal h3,.value h3 {
+    padding: 10px 0 20px;
+    color: white;
+    width: 35%;
+}
+.michel-box:hover > h3,.mom-box:hover > h3,.steal:hover h3{
+    opacity: 0.3;
+}
+.michel-box h3 span,.mom-box h3 span,.steal h3 span,.value h3 span {
+    opacity: 0.7;
+}
+.mom-steal {
+    padding: 20vh 0;
+}
+.mom-box h3,.steal h3 {
+    width: 70%;
+}
+.mom-box-img:hover > img {
+    animation: zoom 20s;
+}
+
+.steal-box:hover > .michel-nonhover {
+    display: none;
+}
+.steal-box:hover > .michel-hover {
+    display: block;
+    animation: zoom 20s;
+}
+.steal-box,.mom-box-img{
+    width: 100%;
+    height: 334px;
+    overflow: hidden;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.mom-box-img {
+    width: 100%;
+    overflow: hidden;
+}
+.steal-box .michel-hover {
+    width: 100%;
+}
+.michel img,.mom-box-img img,.steal-box img,.value img {
+    border-radius: 7px;
+}
+.value {
+    cursor: pointer;
+}
+button {
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    background: black;
+    border: 2px solid white;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background: white;
+    color: black;
+}
+.mid {
+    border-bottom: 1px solid gray;
+}
+.bot {
+    padding: 5vh 0;
+}
+.bot-left ul li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.bot-left ul li {
+    padding: 5px 0;
+}
+.bot-right {
+    color: white;
+}
+.bot-right h1 {
+    font-family: gtamerican;
+    font-size: 4rem;
+}
+.bot-right h1:first-child {
+    opacity: 0.5;
+}
+.bot-right h1:last-child:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.bot-form-left {
+    color: white;
+}
+.bot-form-left h2 {
+    width: 50%;
+    font-size: 1.23rem;
+    padding-bottom: 20px;
+}
+.bot-form-left a {
+    font-size: 1.23rem;
+}
+.bot-form-right form {
+    width: 100%;
+}
+.bot-form-right label {
+    color: white;
+}
+.bot-form-right form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bot-left ul li a:hover,.wmk ul li a:hover {
+    opacity: 0.5;
+}
+
+.name-box,.cname-box,.email-box,.find-box {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.want-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+input ,textarea{
+    background: black;
+    border-bottom: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+label {
+    font-size: 1.25rem;
+}
+.check-box {
+    display: flex;
+    width: 30%;
+    padding: 20px 0;
+}
+.check {
+    margin-top: 5px;
+}
+.check-box label {
+    padding-left: 10px ;
+}
+.info {
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    color: white;
+    opacity: 0.7;
+}
+.info-social {
+    padding: 10px 0;
+    color: white;
+}
+.info-social i {
+    padding: 10px;
+    font-size: 1.25rem;
+}
+.info-social a {
+    transition: 0.3s;
+}
+.info-social a:hover {
+    opacity: 0.5;
+}

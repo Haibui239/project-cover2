@@ -1,0 +1,242 @@
+.form2 {
+    width: 55%;
+    margin: auto;
+    padding: 10vh 0;
+}
+.m-e-item p {
+    font-size: 14px !important;
+}
+.what {
+    justify-content: space-between;
+}
+.what-item {
+    padding: 20px;
+    width: 45%;
+}
+.wi-img,.like-on-m-e-img2 {
+    box-shadow: rgb(0 0 0 / 30%) 0px 4px 8px;
+}
+.what-item img {
+    width: 100%;
+}
+.what-item {
+    position: relative;
+}
+.what-is-me {
+    position: absolute;
+    width: 400px !important;
+    height: 185px;
+    bottom: -70px;
+    left: -60px;
+    z-index: -1;
+}
+.m-e {
+    position: relative;
+}
+.m-e-img {
+    position: absolute;
+    top: 0;
+    left: -75px;
+    width: 150px;
+    height: 150px;
+}
+.m-e-flex {
+    justify-content: space-between;
+}
+.m-e-flex h2 {
+    width: 100%;
+    padding: 50px 0;
+}
+.m-e-item {
+    width: 32%;
+}
+.m-e-item h3 {
+    font-family: sen;
+}
+.like-on-m-e {
+    justify-content: center;
+}
+.like-on-m-e-item {
+    position: relative;
+    width: 49%;
+    padding: 20px;
+}
+.like-on-m-e-item h2 {
+    font-size: 56px;
+}
+.like-on-m-e-img {
+    position: absolute;
+    width: 200px !important;
+    height: 182px;
+    bottom: -50px;
+    left: -50px;
+    z-index: -1;
+}
+.like-on-m-e-item img {
+    width: 100%;
+}
+.our-poster {
+    position: relative;
+    background-color: rgb(246, 249, 252);
+    z-index: -999;
+}
+.our-poster-item {
+    position: relative;
+    width: 49%;
+}
+.our-poster-flex {
+    justify-content: space-between;
+}
+.our-poster-img {
+    position: absolute;
+    width: 300px;
+    height: 97px;
+    bottom: -50px;
+    left: -100px;
+    z-index: -1;
+}
+.our-poster-img2  {
+    width: 80%;
+    box-shadow: rgb(0 0 0 / 30%) 0px 4px 8px;;
+}
+.our-poster-item p {
+    padding: 20px 0 50px !important;
+}
+.btn-our {
+    width: 30% !important;
+}
+.get-invol {
+    justify-content: space-between;
+}
+.get-invol-item {
+    width: 50%;
+    padding-right: 50px;
+}
+.get-invol h2 {
+    width: 100%;
+}
+.get-invol-item-list ul {
+    width: 50%;
+}
+.lom-hide {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .menu-icon {
+        width: 30% !important;
+    }
+    .banner-content,.wanna-box,.six ,.invol-flex,.better,.year-flex,.form2{
+        width: 90% !important;
+    }
+    .banner h3,.meet h2 {
+        font-size: 36px !important;
+    }
+    .banner h1 {
+        font-size: 56px !important;
+    }
+    .banner-content-title {
+        font-size: 20px !important;
+        width: 100% !important;
+    }
+    .year-item h4,.pre h4,.pre-invol-item p,.pre-invol-item ul li,.meet p,.get-invol-item p,.get-invol-item-list ul li{
+        font-size: 16px !important;
+    }
+    .year-item h2,.pre h2,.m-e-flex h2 {
+        font-size: 36px !important;
+    }
+    .wanna-box h2,.pre h3 {
+        font-size: 36px !important;
+    }
+    .form-email input,.form-email,.six h2,.teams-item,.year-item,.what-item,.m-e-item,.like-on-m-e-item,.our-poster-item,.btn-our,.get-invol-item {
+        width: 100% !important;
+    }
+    .get-invol-item {
+        margin-top: 30px;
+    }
+    .like-on-m-e-item {
+        margin-top: 30px;
+    }
+    .m-e-item h3 {
+        font-size: 24px !important;
+    }
+    .lom-hide {
+        display: block;
+    }
+    .lom-show {
+        display: none;
+    }
+    .our-poster-item h2 {
+        margin-top: 50px;
+    }
+    .name p {
+        font-size: 16px !important;
+        margin-top: 30px;
+    }
+    .get-invol-item h4 {
+        font-size: 18px !important;
+    }
+    .btn-pre-show {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .bot-info {
+        width: 90% !important;
+        flex-wrap: wrap;
+    }
+    .show {
+        display: none;
+    }
+    .bot-menu-hide {
+        display: block;
+    }
+    .bot-menu-hide ul li a {
+        color: rgb(0, 4, 32);
+        font-size: 20px;
+        font-family: brix;
+        font-weight: bold;
+    }
+    .bot-menu-hide ul li ul li {
+        padding-left: 20px;
+    }
+    .bot-menu-hide ul li ul li a {
+        font-size: 16px;
+        color: rgb(0, 4, 32);
+    }
+    .bot-title,.bot-menu,.our-team,.apply {
+        display: none;
+    }
+    .what-pro-img2 {
+        bottom: 0;
+        right: 0;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .menu-icon {
+        width: 15% !important;
+    }
+    .banner-content,.banner,.what-pro,.wanna-box,.bot-info,.six,.invol-flex,.better,.form2 {
+        width: 90% !important;
+    }
+    .pod-img2 {
+        right: -10px;
+    }
+    .form-email {
+        width: 80% !important;
+    }
+    .bot-menu-hide {
+        display: none !important;
+    }
+    .year-flex {
+        width: 90%;
+        margin: auto;
+    }
+    .pre-item img {
+        display: none;
+    }
+    .pre-item p {
+        width: 100%;
+    }
+    .btn-our {
+        width: 50% !important;
+    }
+}
